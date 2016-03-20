@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>function よく行う処理を一つにまとめた処理</title>
+</head>
+<body>
+<pre>
+<script type="text/javascript">
+
+var total = function (price) {
+	var tax = 0.1;
+	return price +price * tax;
+}
+
+console.log(total(8000));
+
+
+
+function nowtax(nowprice) {
+	var nowtax01 = 0.1;
+	return nowprice + nowprice * nowtax01;
+}
+
+console.log(nowtax(100));
+
+
+</script>
+</pre>
+</body>
+</html>
